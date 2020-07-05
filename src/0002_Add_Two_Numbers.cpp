@@ -37,7 +37,7 @@ public:
     }
 };
 
-int main() {
+int main(int argc, char* argv[]) {
     Solution s;
     ListNode* l1 = genList({2, 4, 3});
     ListNode* l2 = genList({5, 6, 4});
