@@ -7,6 +7,8 @@
 #include <map>
 #include <initializer_list>
 
+#include <climits>
+
 using namespace std;
 
 // Definition for singly-linked list.
