@@ -1,3 +1,6 @@
+#include "global.hpp"
+using namespace std;
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -12,3 +15,11 @@ public:
         return vector<int>();
     }
 };
+
+int main(int argc, char* argv[]) {
+    Solution s;
+    vector<int> nums({1, 2, 3, 4, 5});
+    vector<int> res = s.twoSum(nums, 7);
+    cout << res[0] << " " << res[1] << endl;
+    return 0;
+}
