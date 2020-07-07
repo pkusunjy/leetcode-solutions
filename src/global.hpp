@@ -39,4 +39,12 @@ void printList(ListNode* l) {
     cout << "NULL" << endl;
 }
 
+// Definition for a binary tree node
+struct TreeNode {
+    int val;
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
 #endif // GLOBAL_H
