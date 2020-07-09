@@ -1,6 +1,7 @@
 #ifndef GLOBAL_H
 #define GLOBAL_H
 
+#include <bitset>
 #include <iostream>
 #include <vector>
 #include <set>
