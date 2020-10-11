@@ -8,3 +8,11 @@ public:
         return b.count();
     }
 };
+
+int main(int argc, char* argv[]) {
+    Solution s;
+    int x = 1;
+    int y = 4;
+    cout << s.hammingDistance(x, y) << endl;
+    return 0;
+}
