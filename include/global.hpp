@@ -3,6 +3,7 @@
 
 #include <bitset>
 #include <iostream>
+#include <list>
 #include <vector>
 #include <set>
 #include <unordered_set>
