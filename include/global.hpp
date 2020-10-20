@@ -10,6 +10,7 @@
 #include <map>
 #include <unordered_map>
 #include <initializer_list>
+#include <regex>
 #include <stack>
 #include <queue>
 #include <climits>
